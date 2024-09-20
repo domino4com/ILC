@@ -5,18 +5,17 @@ This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Hu
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
-| I²C Address | 0x44 |
-| ChipSet | Sensirion SHT30-DIS|
-| Datasheet | [.pdf](https://.pdf) |
-| Suggested Arduino Library | [GitHub](https://github.com/) |
-| Temperature Accuracy | ±0.2 °C |
-| Temperature Range | -40 to 125 °C |
-| Humidity Accuracy | ± 2 %RH |
-| Humidity Range | 0 to 100 %RH |
+| I²C Address | 0x10 |
+| ChipSet | Vishay VEML6040|
+| Datasheet | [.pdf]([https://.pdf](https://www.vishay.com/docs/84276/veml6040.pdf)) |
+| Suggested Arduino Library | [GitHub]([https://github.com/](https://github.com/thewknd/VEML6040)) |
+| Resolution per channel (R, G, B, W) | 16 bit |
+| Selectable max Lux | 515.4, 1031, 2062, 4124, 8248, or 16 496 |
+| Highest sensitivity | 0.007865 lux/step |
 
 ## Supported I²C Modes
-- [ ] 100 kbit/s Standard Mode (SM) 
-- [ ] 400 kbit/s	Fast Mode	FM
+- [x] 100 kbit/s Standard Mode (SM) 
+- [x] 400 kbit/s	Fast Mode	FM
 - [ ] 1 Mbit/s	Fast Mode Plus	FM+
 - [ ] 3.4Mbit/s	High Speed Mode	HS
 - [ ] 5 Mbit/s	Ultra Fast Mode	UFM
