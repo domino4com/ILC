@@ -1,0 +1,34 @@
+{
+    "name": "ILC",
+    "version": "1.0.0",
+    "description": "ILC: Input Light C - Red, Green, Blue and White Light Sensor",
+    "keywords": "ILC RGB RGBW",
+    "authors": [{
+        "name": "Bjarke Gotfredsen",
+        "url": "https://github.com/gotfredsen",
+        "maintainer": true
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/domino4com/ILC.git"
+    },
+    "homepage": "https://github.com/domino4com/ILC",
+    "export": {
+        "include": [
+            "LICENSE",
+            "library.json",
+            "library.properties",
+            "README.md",
+            "keywords.txt",
+            "src/*",
+            "examples/*"
+        ]
+    },
+    "frameworks": ["arduino", "espidf"],
+    "platforms": "esp32",
+    "headers": "ILC.h",
+    "dependencies":
+    {
+        "bblanchon/ArduinoJson": "^7.1.0"
+    }
+}
