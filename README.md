@@ -1,5 +1,8 @@
 <img src="assets/IWA.svg" width=200 align="right">
 
+[![PlatformIO](https://github.com/domino4com/ILC/actions/workflows/platformio.yml/badge.svg)](https://github.com/domino4com/ILC/actions/workflows/platformio.yml)
+[![Arduino](https://github.com/domino4com/ILC/actions/workflows/arduino.yml/badge.svg)](https://github.com/domino4com/ILC/actions/workflows/arduino.yml)
+
 # ILC - Input Light C
 This is a Light Sensor measuring light power density from each the Red, Green and Blue channel in µW/cm², it measures ambient light intensity in Lux, and calculates correlated color temperature in Kelvin.
 | Specifications | |
