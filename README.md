@@ -1,4 +1,4 @@
-<img src="assets/IWA.svg" width=200 align="right">
+<img src="assets/ILC.svg" width=200 align="right">
 
 [![PlatformIO](https://github.com/domino4com/ILC/actions/workflows/platformio.yml/badge.svg)](https://github.com/domino4com/ILC/actions/workflows/platformio.yml)
 [![Arduino](https://github.com/domino4com/ILC/actions/workflows/arduino.yml/badge.svg)](https://github.com/domino4com/ILC/actions/workflows/arduino.yml)
