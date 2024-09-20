@@ -1,7 +1,7 @@
 <img src="assets/IWA.svg" width=200 align="right">
 
-# IWA - Input Weather A
-This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Humidity**
+# ILC - Input Light C
+This is a Light Sensor measuring light power density from each the Red, Green and Blue channel in µW/cm², it measures ambient light intensity in Lux, and calculates correlated color temperature in Kelvin.
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
