@@ -28,7 +28,7 @@ ILC::ILC() {
 
 bool ILC::begin() {
     Wire.beginTransmission(VEML6040_ADDRESS);
-    if (!Wire.endTransmission())
+    if (Wire.endTransmission()!=0)
         return false;
 
     Wire.beginTransmission(VEML6040_ADDRESS);
@@ -41,7 +41,7 @@ bool ILC::begin() {
 
 bool ILC::getData(float &R, float &G, float &B, float &W, float &C) {
     Wire.beginTransmission(VEML6040_ADDRESS);
-    if (!Wire.endTransmission())
+    if (Wire.endTransmission()!=0)
         return false;
 
     for (int j = 0; j < 4; j++) {

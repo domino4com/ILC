@@ -12,7 +12,8 @@ ILC input;        // And here
 
 void setup() {
     Serial.begin(115200);
-    delay(1000);
+    delay(3000);
+
     Serial.printf("\nJSON Test\n");
 
     Wire.setPins(I2C_SDA, I2C_SCL);
@@ -22,7 +23,7 @@ void setup() {
         Serial.println("Input sensor initialized successfully.");
     } else {
         Serial.println("Failed to initialize input sensor!");
-        exit(0);
+        while(1);
     }
 }
 
